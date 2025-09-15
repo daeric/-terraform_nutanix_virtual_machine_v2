@@ -12,13 +12,8 @@ variable "cluster_name" {
   type        = string
 }
 
-variable "number_of_vms" {
-  description = "How many VMs to deploy"
-  type        = number
-  default     = 1
-}
-
 variable "vm_name" {
   description = "The name of the VM"
   type        = string
+
 }
