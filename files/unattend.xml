@@ -5,6 +5,19 @@
             <ComputerName>${vm_name}</ComputerName>
             <TimeZone>Central Standard Time</TimeZone>
         </component>
+        <!--
+        <component name="Microsoft-Windows-UnattendedJoin" processorArchitecture="amd64" 
+                   publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+            <Identification>
+                <Credentials>
+                    <Domain>example.com</Domain>
+                    <Password>Nutanix/4u</Password>
+                    <Username>Administrator</Username>
+                </Credentials>
+                <JoinDomain>example.com</JoinDomain>
+            </Identification>
+        </component>
+        -->
     </settings>
     <settings pass="oobeSystem">
         <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
